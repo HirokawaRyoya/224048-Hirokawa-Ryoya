@@ -1,0 +1,68 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMaUCWg0omhRgPIWbm+b1MN",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/HirokawaRyoya/224048-Hirokawa-Ryoya/blob/main/2024-10-04-04ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 20,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "U7dXycoTttHn",
+        "outputId": "5e243f69-58df-467d-9226-3544eac34afe"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "学籍番号224048\n",
+            "名前廣川椋也\n",
+            "数学の点数7\n",
+            "英語の点数14\n",
+            "国語の点数50\n",
+            "71\n",
+            "23.666666666666668\n"
+          ]
+        }
+      ],
+      "source": [
+        "input(\"学籍番号\")\n",
+        "input(\"名前\")\n",
+        "x1=input(\"数学の点数\")\n",
+        "x2=input(\"英語の点数\")\n",
+        "x3=input(\"国語の点数\")\n",
+        "x1=int(x1)\n",
+        "x2=int(x2)\n",
+        "x3=int(x3)\n",
+        "print(x1+x2+x3)\n",
+        "print((x1+x2+x3)/3)"
+      ]
+    }
+  ]
+}
