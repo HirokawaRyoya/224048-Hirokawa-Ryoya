@@ -1,0 +1,77 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOewhToBqby9DpWmdYg6QL4",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/HirokawaRyoya/224048-Hirokawa-Ryoya/blob/main/2024-10-11-03ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "epr8AxafCuy8"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "youbi = input(\"10人で入場する場合は1を、25人で入場する場合は2を、120人で入場する場合は3を入力してください。\")\n",
+        "\n",
+        "youbi = int(youbi)\n",
+        "\n",
+        "if youbi == 1:\n",
+        "    print(\"6800円です\")\n",
+        "\n",
+        "elif youbi == 2:\n",
+        "    print(\"8700円です。\")\n",
+        "\n",
+        "elif youbi == 3:\n",
+        "    print(\"18300円です。\")\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "a05a4f58-faf5-40a0-9dcf-55e201ebfc60",
+        "id": "4soTbSvBNF4J"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10人で入場する場合は1を、25人で入場する場合は2を、120人で入場する場合は3を入力してください。1\n",
+            "6800円です\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
